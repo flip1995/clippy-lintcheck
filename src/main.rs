@@ -78,10 +78,15 @@ fn check_integration(clippy_path: &Path) {
         &PathBuf::from("../config/integration.toml"),
         None,
     );
+    let log_integration =
+        fs::read_to_string("logs/integration_logs.txt").expect("couldn't read log file");
+    assert!(log_integration.ends_with("ICEs:\n"));
 }
 
 fn check_passes(clippy_path: &Path) {
     check(clippy_path, &PathBuf::from("../config/passes.toml"), None);
+    let log_passes = fs::read_to_string("logs/passes_logs.txt").expect("couldn't read log file");
+    assert!(!log_passes.contains("clippy::") && log_passes.ends_with("ICEs:\n"));
 }
 
 fn check_ci(clippy_path: &Path) {
@@ -92,7 +97,9 @@ fn check_ci(clippy_path: &Path) {
 
     let file = create_temp_config("integration");
     check(clippy_path, file.path(), Some("ci_integration"));
-    assert!(log_passes.ends_with("ICEs:\n"));
+    let log_integration =
+        fs::read_to_string("logs/ci_integration_logs.txt").expect("couldn't read log file");
+    assert!(log_integration.ends_with("ICEs:\n"));
 }
 
 fn create_temp_config(name: &str) -> NamedTempFile {
@@ -100,7 +107,7 @@ fn create_temp_config(name: &str) -> NamedTempFile {
     writeln!(tempfile, "[crates]").expect("couldn't write to tempfile");
     let diff = Command::new("git")
         .arg("diff")
-        .arg(format!("config/{}.toml", name))
+        .args(&["origin/main", "--", &format!("config/{}.toml", name)])
         .stdout(Stdio::piped())
         .spawn()
         .expect("couldn't execute git diff");

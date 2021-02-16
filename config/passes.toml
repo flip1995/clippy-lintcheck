@@ -1,4 +1,2 @@
 [crates]
-clippy_lintcheck = {name = "clippy_lintcheck", path = ".."}
 bitflags = {name = "bitflags", versions = ['1.2.1']}
-syn = {name = "syn", versions = ['1.0.54'], options = ['-Wclippy::pedantic', '-Wclippy::cargo', '-Aclippy::cargo_common_metadata', '-Aclippy::redundant_else']}
