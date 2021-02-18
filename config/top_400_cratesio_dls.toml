@@ -1,0 +1,457 @@
+[crates]
+addr2line = {name="addr2line", versions=['0.14.1']}
+adler = {name="adler", versions=['0.2.3', '1.0.1']}
+adler32 = {name="adler32", versions=['1.2.0']}
+ahash = {name="ahash", versions=['0.4.7', '0.7.0']}
+aho-corasick = {name="aho-corasick", versions=['0.7.15']}
+ansi_term = {name="ansi_term", versions=['0.11.0', '0.12.1']}
+anyhow = {name="anyhow", versions=['1.0.38']}
+approx = {name="approx", versions=['0.4.0']}
+arc-swap = {name="arc-swap", versions=['1.2.0']}
+arrayref = {name="arrayref", versions=['0.3.6']}
+arrayvec = {name="arrayvec", versions=['0.5.2']}
+ascii = {name="ascii", versions=['1.0.0']}
+async-trait = {name="async-trait", versions=['0.1.42']}
+atty = {name="atty", versions=['0.2.14']}
+autocfg = {name="autocfg", versions=['1.0.1']}
+backtrace = {name="backtrace", versions=['0.3.56']}
+backtrace-sys = {name="backtrace-sys", versions=['0.1.37']}
+base-x = {name="base-x", versions=['0.2.8']}
+base64 = {name="base64", versions=['0.13.0']}
+bincode = {name="bincode", versions=['1.3.1']}
+bindgen = {name="bindgen", versions=['0.57.0']}
+bit-set = {name="bit-set", versions=['0.5.2']}
+bit-vec = {name="bit-vec", versions=['0.6.3']}
+bitflags = {name="bitflags", versions=['1.2.1']}
+bitvec = {name="bitvec", versions=['0.19.4']}
+blake2b_simd = {name="blake2b_simd", versions=['0.5.11']}
+block-buffer = {name="block-buffer", versions=['0.7.3', '0.9.0']}
+block-padding = {name="block-padding", versions=['0.1.5', '0.2.1']}
+bstr = {name="bstr", versions=['0.2.15']}
+build_const = {name="build_const", versions=['0.2.1']}
+bumpalo = {name="bumpalo", versions=['3.6.0']}
+byte-tools = {name="byte-tools", versions=['0.3.1']}
+bytemuck = {name="bytemuck", versions=['1.5.1']}
+byteorder = {name="byteorder", versions=['1.4.2']}
+bytes = {name="bytes", versions=['0.4.12', '0.5.6', '1.0.1']}
+bzip2 = {name="bzip2", versions=['0.3.3']}
+bzip2-sys = {name="bzip2-sys", versions=['0.1.10+1.0.8']}
+c2-chacha = {name="c2-chacha", versions=['0.3.0']}
+cargo-platform = {name="cargo-platform", versions=['0.1.1']}
+cargo_metadata = {name="cargo_metadata", versions=['0.12.3']}
+cast = {name="cast", versions=['0.2.3']}
+cc = {name="cc", versions=['1.0.66']}
+cexpr = {name="cexpr", versions=['0.4.0']}
+cfg-if = {name="cfg-if", versions=['0.1.10', '1.0.0']}
+chrono = {name="chrono", versions=['0.4.19']}
+cipher = {name="cipher", versions=['0.2.5']}
+clang-sys = {name="clang-sys", versions=['1.1.0']}
+clap = {name="clap", versions=['2.33.3']}
+cloudabi = {name="cloudabi", versions=['0.0.3', '0.1.0']}
+cmake = {name="cmake", versions=['0.1.45']}
+color_quant = {name="color_quant", versions=['1.1.0']}
+colored = {name="colored", versions=['2.0.0']}
+console = {name="console", versions=['0.14.0']}
+const_fn = {name="const_fn", versions=['0.4.5']}
+constant_time_eq = {name="constant_time_eq", versions=['0.1.5']}
+cookie = {name="cookie", versions=['0.14.3']}
+cookie_store = {name="cookie_store", versions=['0.12.0']}
+core-foundation = {name="core-foundation", versions=['0.9.1']}
+core-foundation-sys = {name="core-foundation-sys", versions=['0.8.2']}
+cpp_demangle = {name="cpp_demangle", versions=['0.3.2']}
+cpuid-bool = {name="cpuid-bool", versions=['0.1.2', '0.2.0']}
+crc = {name="crc", versions=['1.8.1']}
+crc32fast = {name="crc32fast", versions=['1.2.1']}
+criterion = {name="criterion", versions=['0.3.4']}
+criterion-plot = {name="criterion-plot", versions=['0.4.3']}
+crossbeam = {name="crossbeam", versions=['0.8.0']}
+crossbeam-channel = {name="crossbeam-channel", versions=['0.5.0']}
+crossbeam-deque = {name="crossbeam-deque", versions=['0.7.3', '0.8.0']}
+crossbeam-epoch = {name="crossbeam-epoch", versions=['0.8.2', '0.9.1']}
+crossbeam-queue = {name="crossbeam-queue", versions=['0.2.3', '0.3.1']}
+crossbeam-utils = {name="crossbeam-utils", versions=['0.7.2', '0.8.1']}
+crypto-mac = {name="crypto-mac", versions=['0.10.0']}
+csv = {name="csv", versions=['1.1.5']}
+csv-core = {name="csv-core", versions=['0.1.10']}
+ctor = {name="ctor", versions=['0.1.19']}
+curl = {name="curl", versions=['0.4.34']}
+curl-sys = {name="curl-sys", versions=['0.4.40+curl-7.75.0']}
+darling = {name="darling", versions=['0.12.0']}
+darling_core = {name="darling_core", versions=['0.12.0']}
+darling_macro = {name="darling_macro", versions=['0.12.0']}
+data-encoding = {name="data-encoding", versions=['2.3.2']}
+deflate = {name="deflate", versions=['0.8.6', '0.9.0']}
+derivative = {name="derivative", versions=['2.2.0']}
+derive_more = {name="derive_more", versions=['0.99.11']}
+difference = {name="difference", versions=['2.0.0']}
+digest = {name="digest", versions=['0.8.1', '0.9.0']}
+dirs = {name="dirs", versions=['3.0.1']}
+dirs-next = {name="dirs-next", versions=['2.0.0']}
+dirs-sys = {name="dirs-sys", versions=['0.3.5']}
+dirs-sys-next = {name="dirs-sys-next", versions=['0.1.2']}
+discard = {name="discard", versions=['1.0.4']}
+doc-comment = {name="doc-comment", versions=['0.3.3']}
+docopt = {name="docopt", versions=['1.1.0']}
+dtoa = {name="dtoa", versions=['0.4.7']}
+either = {name="either", versions=['1.6.1']}
+encode_unicode = {name="encode_unicode", versions=['0.3.6']}
+encoding_rs = {name="encoding_rs", versions=['0.8.28']}
+enum-as-inner = {name="enum-as-inner", versions=['0.3.3']}
+env_logger = {name="env_logger", versions=['0.8.3']}
+error-chain = {name="error-chain", versions=['0.12.4']}
+failure = {name="failure", versions=['0.1.8']}
+failure_derive = {name="failure_derive", versions=['0.1.8']}
+fake-simd = {name="fake-simd", versions=['0.1.2']}
+fallible-iterator = {name="fallible-iterator", versions=['0.2.0']}
+filetime = {name="filetime", versions=['0.2.14']}
+fixedbitset = {name="fixedbitset", versions=['0.2.0', '0.3.2']}
+flate2 = {name="flate2", versions=['1.0.20']}
+fnv = {name="fnv", versions=['1.0.7']}
+foreign-types = {name="foreign-types", versions=['0.3.2', '0.5.0']}
+foreign-types-macros = {name="foreign-types-macros", versions=['0.2.1']}
+foreign-types-shared = {name="foreign-types-shared", versions=['0.1.1', '0.3.0']}
+form_urlencoded = {name="form_urlencoded", versions=['1.0.0']}
+fs2 = {name="fs2", versions=['0.4.3']}
+fuchsia-cprng = {name="fuchsia-cprng", versions=['0.1.1']}
+fuchsia-zircon = {name="fuchsia-zircon", versions=['0.3.3']}
+fuchsia-zircon-sys = {name="fuchsia-zircon-sys", versions=['0.3.3']}
+funty = {name="funty", versions=['1.1.0']}
+futures = {name="futures", versions=['0.1.30', '0.3.12']}
+futures-channel = {name="futures-channel", versions=['0.3.12']}
+futures-core = {name="futures-core", versions=['0.3.12']}
+futures-cpupool = {name="futures-cpupool", versions=['0.1.8']}
+futures-executor = {name="futures-executor", versions=['0.3.12']}
+futures-io = {name="futures-io", versions=['0.3.12']}
+futures-macro = {name="futures-macro", versions=['0.3.12']}
+futures-sink = {name="futures-sink", versions=['0.3.12']}
+futures-task = {name="futures-task", versions=['0.3.12']}
+futures-util = {name="futures-util", versions=['0.3.12']}
+fxhash = {name="fxhash", versions=['0.2.1']}
+gcc = {name="gcc", versions=['0.3.55']}
+generic-array = {name="generic-array", versions=['0.12.3', '0.14.4']}
+getopts = {name="getopts", versions=['0.2.21']}
+getrandom = {name="getrandom", versions=['0.1.16', '0.2.2']}
+gif = {name="gif", versions=['0.11.1']}
+gimli = {name="gimli", versions=['0.23.0']}
+git2 = {name="git2", versions=['0.13.17']}
+glob = {name="glob", versions=['0.3.0']}
+globset = {name="globset", versions=['0.4.6']}
+h2 = {name="h2", versions=['0.3.0']}
+half = {name="half", versions=['1.7.1']}
+handlebars = {name="handlebars", versions=['3.5.2']}
+hashbrown = {name="hashbrown", versions=['0.9.1']}
+heck = {name="heck", versions=['0.3.2']}
+hermit-abi = {name="hermit-abi", versions=['0.1.18']}
+hex = {name="hex", versions=['0.4.2']}
+hmac = {name="hmac", versions=['0.10.1']}
+home = {name="home", versions=['0.5.3']}
+hostname = {name="hostname", versions=['0.3.1']}
+http = {name="http", versions=['0.2.3']}
+http-body = {name="http-body", versions=['0.4.0']}
+httparse = {name="httparse", versions=['1.3.5']}
+httpdate = {name="httpdate", versions=['0.3.2']}
+humantime = {name="humantime", versions=['2.1.0']}
+hyper = {name="hyper", versions=['0.14.4']}
+hyper-tls = {name="hyper-tls", versions=['0.5.0']}
+ident_case = {name="ident_case", versions=['1.0.1']}
+idna = {name="idna", versions=['0.2.2']}
+ignore = {name="ignore", versions=['0.4.17']}
+image = {name="image", versions=['0.23.13']}
+indexmap = {name="indexmap", versions=['1.6.1']}
+instant = {name="instant", versions=['0.1.9']}
+iovec = {name="iovec", versions=['0.1.4']}
+ipconfig = {name="ipconfig", versions=['0.2.2']}
+ipnet = {name="ipnet", versions=['2.3.0']}
+itertools = {name="itertools", versions=['0.10.0', '0.9.0']}
+itoa = {name="itoa", versions=['0.4.7']}
+jobserver = {name="jobserver", versions=['0.1.21']}
+jpeg-decoder = {name="jpeg-decoder", versions=['0.1.22']}
+js-sys = {name="js-sys", versions=['0.3.47']}
+kernel32-sys = {name="kernel32-sys", versions=['0.2.2']}
+language-tags = {name="language-tags", versions=['0.2.2']}
+lazy_static = {name="lazy_static", versions=['1.4.0']}
+lazycell = {name="lazycell", versions=['1.3.0']}
+lexical-core = {name="lexical-core", versions=['0.7.5']}
+libc = {name="libc", versions=['0.2.86']}
+libflate = {name="libflate", versions=['1.0.3']}
+libflate_lz77 = {name="libflate_lz77", versions=['1.0.0']}
+libgit2-sys = {name="libgit2-sys", versions=['0.12.18+1.1.0']}
+libloading = {name="libloading", versions=['0.6.7', '0.7.0']}
+libssh2-sys = {name="libssh2-sys", versions=['0.2.21']}
+libz-sys = {name="libz-sys", versions=['1.1.2']}
+linked-hash-map = {name="linked-hash-map", versions=['0.5.4']}
+lock_api = {name="lock_api", versions=['0.3.4', '0.4.2']}
+log = {name="log", versions=['0.4.14']}
+lru-cache = {name="lru-cache", versions=['0.1.2']}
+maplit = {name="maplit", versions=['1.0.2']}
+match_cfg = {name="match_cfg", versions=['0.1.0']}
+matches = {name="matches", versions=['0.1.8']}
+maybe-uninit = {name="maybe-uninit", versions=['2.0.0']}
+md5 = {name="md5", versions=['0.7.0']}
+memchr = {name="memchr", versions=['2.3.4']}
+memmap = {name="memmap", versions=['0.7.0']}
+memoffset = {name="memoffset", versions=['0.5.6', '0.6.1']}
+mime = {name="mime", versions=['0.3.16']}
+mime_guess = {name="mime_guess", versions=['2.0.3']}
+miniz-sys = {name="miniz-sys", versions=['0.1.12']}
+miniz_oxide = {name="miniz_oxide", versions=['0.3.7', '0.4.3']}
+mio = {name="mio", versions=['0.6.23', '0.7.8']}
+mio-extras = {name="mio-extras", versions=['2.0.6']}
+mio-uds = {name="mio-uds", versions=['0.6.8']}
+miow = {name="miow", versions=['0.2.2', '0.3.6']}
+multimap = {name="multimap", versions=['0.8.2']}
+native-tls = {name="native-tls", versions=['0.2.7']}
+net2 = {name="net2", versions=['0.2.37']}
+new_debug_unreachable = {name="new_debug_unreachable", versions=['1.0.4']}
+nix = {name="nix", versions=['0.19.1']}
+nodrop = {name="nodrop", versions=['0.1.14']}
+nom = {name="nom", versions=['5.1.2', '6.1.2']}
+ntapi = {name="ntapi", versions=['0.3.6']}
+num = {name="num", versions=['0.3.1']}
+num-bigint = {name="num-bigint", versions=['0.3.1']}
+num-complex = {name="num-complex", versions=['0.3.1']}
+num-derive = {name="num-derive", versions=['0.3.3']}
+num-integer = {name="num-integer", versions=['0.1.44']}
+num-iter = {name="num-iter", versions=['0.1.42']}
+num-rational = {name="num-rational", versions=['0.3.2']}
+num-traits = {name="num-traits", versions=['0.2.14']}
+num_cpus = {name="num_cpus", versions=['1.13.0']}
+numtoa = {name="numtoa", versions=['0.1.0']}
+object = {name="object", versions=['0.22.0', '0.23.0']}
+once_cell = {name="once_cell", versions=['1.5.2']}
+oorandom = {name="oorandom", versions=['11.1.3']}
+opaque-debug = {name="opaque-debug", versions=['0.2.3', '0.3.0']}
+openssl = {name="openssl", versions=['0.10.32']}
+openssl-probe = {name="openssl-probe", versions=['0.1.2']}
+openssl-sys = {name="openssl-sys", versions=['0.9.60']}
+ordered-float = {name="ordered-float", versions=['2.1.1']}
+output_vt100 = {name="output_vt100", versions=['0.1.2']}
+owning_ref = {name="owning_ref", versions=['0.4.1']}
+parking_lot = {name="parking_lot", versions=['0.11.1', '0.9.0']}
+parking_lot_core = {name="parking_lot_core", versions=['0.6.2', '0.8.3']}
+paste = {name="paste", versions=['1.0.4']}
+peeking_take_while = {name="peeking_take_while", versions=['0.1.2']}
+percent-encoding = {name="percent-encoding", versions=['2.1.0']}
+pest = {name="pest", versions=['2.1.3']}
+pest_derive = {name="pest_derive", versions=['2.1.0']}
+pest_generator = {name="pest_generator", versions=['2.1.3']}
+pest_meta = {name="pest_meta", versions=['2.1.3']}
+petgraph = {name="petgraph", versions=['0.5.1']}
+phf = {name="phf", versions=['0.8.0']}
+phf_codegen = {name="phf_codegen", versions=['0.8.0']}
+phf_generator = {name="phf_generator", versions=['0.8.0']}
+phf_shared = {name="phf_shared", versions=['0.8.0']}
+pin-project = {name="pin-project", versions=['1.0.5']}
+pin-project-internal = {name="pin-project-internal", versions=['1.0.5']}
+pin-project-lite = {name="pin-project-lite", versions=['0.1.11', '0.2.4']}
+pin-utils = {name="pin-utils", versions=['0.1.0']}
+pkg-config = {name="pkg-config", versions=['0.3.19']}
+plotters = {name="plotters", versions=['0.3.0']}
+plotters-backend = {name="plotters-backend", versions=['0.3.0']}
+plotters-svg = {name="plotters-svg", versions=['0.3.0']}
+png = {name="png", versions=['0.16.8']}
+podio = {name="podio", versions=['0.1.7']}
+ppv-lite86 = {name="ppv-lite86", versions=['0.2.10']}
+precomputed-hash = {name="precomputed-hash", versions=['0.1.1']}
+pretty_assertions = {name="pretty_assertions", versions=['0.6.1']}
+proc-macro-error = {name="proc-macro-error", versions=['1.0.4']}
+proc-macro-error-attr = {name="proc-macro-error-attr", versions=['1.0.4']}
+proc-macro-hack = {name="proc-macro-hack", versions=['0.5.19']}
+proc-macro-nested = {name="proc-macro-nested", versions=['0.1.7']}
+proc-macro2 = {name="proc-macro2", versions=['1.0.24']}
+prost = {name="prost", versions=['0.7.0']}
+prost-derive = {name="prost-derive", versions=['0.7.0']}
+protobuf = {name="protobuf", versions=['2.22.0']}
+publicsuffix = {name="publicsuffix", versions=['1.5.4']}
+pulldown-cmark = {name="pulldown-cmark", versions=['0.8.0']}
+quick-error = {name="quick-error", versions=['1.2.3', '2.0.0']}
+quickcheck = {name="quickcheck", versions=['1.0.3']}
+quote = {name="quote", versions=['1.0.9']}
+radium = {name="radium", versions=['0.5.3']}
+rand = {name="rand", versions=['0.4.6', '0.7.3', '0.8.3']}
+rand_chacha = {name="rand_chacha", versions=['0.2.2', '0.3.0']}
+rand_core = {name="rand_core", versions=['0.3.1', '0.4.2', '0.5.1', '0.6.2']}
+rand_hc = {name="rand_hc", versions=['0.2.0', '0.3.0']}
+rand_isaac = {name="rand_isaac", versions=['0.3.0']}
+rand_jitter = {name="rand_jitter", versions=['0.3.0']}
+rand_os = {name="rand_os", versions=['0.2.2']}
+rand_pcg = {name="rand_pcg", versions=['0.2.1', '0.3.0']}
+rand_xorshift = {name="rand_xorshift", versions=['0.3.0']}
+rand_xoshiro = {name="rand_xoshiro", versions=['0.6.0']}
+rayon = {name="rayon", versions=['1.5.0']}
+rayon-core = {name="rayon-core", versions=['1.9.0']}
+rdrand = {name="rdrand", versions=['0.4.0', '0.7.0']}
+redox_syscall = {name="redox_syscall", versions=['0.1.57', '0.2.5']}
+redox_termios = {name="redox_termios", versions=['0.1.2']}
+redox_users = {name="redox_users", versions=['0.3.5', '0.4.0']}
+regex = {name="regex", versions=['1.4.3']}
+regex-automata = {name="regex-automata", versions=['0.1.9']}
+regex-syntax = {name="regex-syntax", versions=['0.6.22']}
+remove_dir_all = {name="remove_dir_all", versions=['0.5.3', '0.6.1']}
+reqwest = {name="reqwest", versions=['0.11.0']}
+resolv-conf = {name="resolv-conf", versions=['0.7.0']}
+ring = {name="ring", versions=['0.16.20']}
+rle-decode-fast = {name="rle-decode-fast", versions=['1.0.1']}
+rust-argon2 = {name="rust-argon2", versions=['0.8.3']}
+rustc-demangle = {name="rustc-demangle", versions=['0.1.18']}
+rustc-hash = {name="rustc-hash", versions=['1.1.0']}
+rustc-serialize = {name="rustc-serialize", versions=['0.3.24']}
+rustc_version = {name="rustc_version", versions=['0.2.3', '0.3.3']}
+rustls = {name="rustls", versions=['0.19.0']}
+rustversion = {name="rustversion", versions=['1.0.4']}
+ryu = {name="ryu", versions=['1.0.5']}
+safemem = {name="safemem", versions=['0.3.3']}
+same-file = {name="same-file", versions=['1.0.6']}
+schannel = {name="schannel", versions=['0.1.19']}
+scoped-tls = {name="scoped-tls", versions=['0.1.2', '1.0.0']}
+scoped_threadpool = {name="scoped_threadpool", versions=['0.1.9']}
+scopeguard = {name="scopeguard", versions=['1.1.0']}
+sct = {name="sct", versions=['0.6.0']}
+security-framework = {name="security-framework", versions=['2.0.0']}
+security-framework-sys = {name="security-framework-sys", versions=['2.0.0']}
+semver = {name="semver", versions=['0.11.0', '0.9.0']}
+semver-parser = {name="semver-parser", versions=['0.10.2', '0.7.0']}
+serde = {name="serde", versions=['1.0.123']}
+serde_cbor = {name="serde_cbor", versions=['0.11.1']}
+serde_derive = {name="serde_derive", versions=['1.0.123']}
+serde_json = {name="serde_json", versions=['1.0.62']}
+serde_urlencoded = {name="serde_urlencoded", versions=['0.7.0']}
+serde_yaml = {name="serde_yaml", versions=['0.8.17']}
+sha-1 = {name="sha-1", versions=['0.8.2', '0.9.4']}
+sha1 = {name="sha1", versions=['0.6.0']}
+sha2 = {name="sha2", versions=['0.9.3']}
+shlex = {name="shlex", versions=['0.1.1', '1.0.0']}
+signal-hook = {name="signal-hook", versions=['0.3.4']}
+signal-hook-registry = {name="signal-hook-registry", versions=['1.3.0']}
+siphasher = {name="siphasher", versions=['0.3.3']}
+slab = {name="slab", versions=['0.4.2']}
+smallvec = {name="smallvec", versions=['0.6.14', '1.6.1']}
+smawk = {name="smawk", versions=['0.3.1']}
+socket2 = {name="socket2", versions=['0.3.19']}
+spin = {name="spin", versions=['0.5.2', '0.7.1']}
+stable_deref_trait = {name="stable_deref_trait", versions=['1.2.0']}
+standback = {name="standback", versions=['0.2.15']}
+static_assertions = {name="static_assertions", versions=['1.1.0']}
+stdweb = {name="stdweb", versions=['0.4.20']}
+stdweb-derive = {name="stdweb-derive", versions=['0.5.3']}
+stdweb-internal-macros = {name="stdweb-internal-macros", versions=['0.2.9']}
+stdweb-internal-runtime = {name="stdweb-internal-runtime", versions=['0.1.5']}
+string = {name="string", versions=['0.2.1']}
+string_cache = {name="string_cache", versions=['0.8.1']}
+strsim = {name="strsim", versions=['0.10.0', '0.8.0', '0.9.3']}
+structopt = {name="structopt", versions=['0.3.21']}
+structopt-derive = {name="structopt-derive", versions=['0.4.14']}
+strum = {name="strum", versions=['0.20.0']}
+strum_macros = {name="strum_macros", versions=['0.20.1']}
+subtle = {name="subtle", versions=['2.4.0']}
+syn = {name="syn", versions=['1.0.60']}
+syn-mid = {name="syn-mid", versions=['0.5.3']}
+synom = {name="synom", versions=['0.11.3']}
+synstructure = {name="synstructure", versions=['0.12.4']}
+take_mut = {name="take_mut", versions=['0.2.2']}
+tap = {name="tap", versions=['1.0.1']}
+tar = {name="tar", versions=['0.4.32']}
+tempdir = {name="tempdir", versions=['0.3.7']}
+tempfile = {name="tempfile", versions=['3.2.0']}
+term = {name="term", versions=['0.7.0']}
+term_size = {name="term_size", versions=['0.3.2']}
+termcolor = {name="termcolor", versions=['1.1.2']}
+terminal_size = {name="terminal_size", versions=['0.1.16']}
+termion = {name="termion", versions=['1.5.6']}
+termios = {name="termios", versions=['0.3.3']}
+textwrap = {name="textwrap", versions=['0.11.0', '0.13.2']}
+thiserror = {name="thiserror", versions=['1.0.23']}
+thiserror-impl = {name="thiserror-impl", versions=['1.0.23']}
+thread-id = {name="thread-id", versions=['3.3.0']}
+thread_local = {name="thread_local", versions=['1.1.3']}
+threadpool = {name="threadpool", versions=['1.8.1']}
+tiff = {name="tiff", versions=['0.6.1']}
+time = {name="time", versions=['0.1.43', '0.2.25']}
+time-macros = {name="time-macros", versions=['0.1.1']}
+time-macros-impl = {name="time-macros-impl", versions=['0.1.1']}
+tinytemplate = {name="tinytemplate", versions=['1.2.0']}
+tinyvec = {name="tinyvec", versions=['1.1.1']}
+tinyvec_macros = {name="tinyvec_macros", versions=['0.1.0']}
+tokio = {name="tokio", versions=['0.1.22', '0.2.25', '1.2.0']}
+tokio-buf = {name="tokio-buf", versions=['0.1.1']}
+tokio-codec = {name="tokio-codec", versions=['0.1.2']}
+tokio-core = {name="tokio-core", versions=['0.1.18']}
+tokio-current-thread = {name="tokio-current-thread", versions=['0.1.7']}
+tokio-executor = {name="tokio-executor", versions=['0.1.10']}
+tokio-fs = {name="tokio-fs", versions=['0.1.7']}
+tokio-io = {name="tokio-io", versions=['0.1.13']}
+tokio-macros = {name="tokio-macros", versions=['1.1.0']}
+tokio-native-tls = {name="tokio-native-tls", versions=['0.3.0']}
+tokio-reactor = {name="tokio-reactor", versions=['0.1.12']}
+tokio-rustls = {name="tokio-rustls", versions=['0.22.0']}
+tokio-signal = {name="tokio-signal", versions=['0.2.9']}
+tokio-sync = {name="tokio-sync", versions=['0.1.8']}
+tokio-tcp = {name="tokio-tcp", versions=['0.1.4']}
+tokio-threadpool = {name="tokio-threadpool", versions=['0.1.18']}
+tokio-timer = {name="tokio-timer", versions=['0.2.13']}
+tokio-tls = {name="tokio-tls", versions=['0.3.1']}
+tokio-udp = {name="tokio-udp", versions=['0.1.6']}
+tokio-uds = {name="tokio-uds", versions=['0.2.7']}
+tokio-util = {name="tokio-util", versions=['0.6.3']}
+toml = {name="toml", versions=['0.5.8']}
+tower-service = {name="tower-service", versions=['0.3.1']}
+tracing = {name="tracing", versions=['0.1.24']}
+tracing-attributes = {name="tracing-attributes", versions=['0.1.13']}
+tracing-core = {name="tracing-core", versions=['0.1.17']}
+tracing-futures = {name="tracing-futures", versions=['0.2.5']}
+traitobject = {name="traitobject", versions=['0.1.0']}
+trust-dns-proto = {name="trust-dns-proto", versions=['0.20.0']}
+trust-dns-resolver = {name="trust-dns-resolver", versions=['0.20.0']}
+try-lock = {name="try-lock", versions=['0.2.3']}
+try_from = {name="try_from", versions=['0.3.2']}
+typeable = {name="typeable", versions=['0.1.2']}
+typenum = {name="typenum", versions=['1.12.0']}
+ucd-trie = {name="ucd-trie", versions=['0.1.3']}
+ucd-util = {name="ucd-util", versions=['0.1.8']}
+unicase = {name="unicase", versions=['2.6.0']}
+unicode-bidi = {name="unicode-bidi", versions=['0.3.4']}
+unicode-normalization = {name="unicode-normalization", versions=['0.1.17']}
+unicode-segmentation = {name="unicode-segmentation", versions=['1.7.1']}
+unicode-width = {name="unicode-width", versions=['0.1.8']}
+unicode-xid = {name="unicode-xid", versions=['0.0.4', '0.2.1']}
+unreachable = {name="unreachable", versions=['1.0.0']}
+untrusted = {name="untrusted", versions=['0.7.1']}
+url = {name="url", versions=['2.2.0']}
+utf-8 = {name="utf-8", versions=['0.7.5']}
+utf8-ranges = {name="utf8-ranges", versions=['1.0.4']}
+uuid = {name="uuid", versions=['0.8.2']}
+vcpkg = {name="vcpkg", versions=['0.2.11']}
+vec_map = {name="vec_map", versions=['0.8.2']}
+version_check = {name="version_check", versions=['0.9.2']}
+void = {name="void", versions=['1.0.2']}
+wait-timeout = {name="wait-timeout", versions=['0.2.0']}
+walkdir = {name="walkdir", versions=['2.3.1']}
+want = {name="want", versions=['0.3.0']}
+wasi = {name="wasi", versions=['0.10.2+wasi-snapshot-preview1', '0.9.0+wasi-snapshot-preview1']}
+wasm-bindgen = {name="wasm-bindgen", versions=['0.2.70']}
+wasm-bindgen-backend = {name="wasm-bindgen-backend", versions=['0.2.70']}
+wasm-bindgen-futures = {name="wasm-bindgen-futures", versions=['0.4.20']}
+wasm-bindgen-macro = {name="wasm-bindgen-macro", versions=['0.2.70']}
+wasm-bindgen-macro-support = {name="wasm-bindgen-macro-support", versions=['0.2.70']}
+wasm-bindgen-shared = {name="wasm-bindgen-shared", versions=['0.2.70']}
+wasmparser = {name="wasmparser", versions=['0.57.0']}
+web-sys = {name="web-sys", versions=['0.3.47']}
+webpki = {name="webpki", versions=['0.21.4']}
+webpki-roots = {name="webpki-roots", versions=['0.21.0']}
+weezl = {name="weezl", versions=['0.1.4']}
+which = {name="which", versions=['3.1.1', '4.0.2']}
+widestring = {name="widestring", versions=['0.4.3']}
+winapi = {name="winapi", versions=['0.2.8', '0.3.9']}
+winapi-build = {name="winapi-build", versions=['0.1.1']}
+winapi-i686-pc-windows-gnu = {name="winapi-i686-pc-windows-gnu", versions=['0.4.0']}
+winapi-util = {name="winapi-util", versions=['0.1.5']}
+winapi-x86_64-pc-windows-gnu = {name="winapi-x86_64-pc-windows-gnu", versions=['0.4.0']}
+wincolor = {name="wincolor", versions=['1.0.3']}
+winreg = {name="winreg", versions=['0.6.2', '0.7.0', '0.8.0']}
+ws2_32-sys = {name="ws2_32-sys", versions=['0.2.1']}
+wyz = {name="wyz", versions=['0.2.0']}
+xattr = {name="xattr", versions=['0.2.2']}
+xml-rs = {name="xml-rs", versions=['0.8.3']}
+yaml-rust = {name="yaml-rust", versions=['0.4.5']}
+zeroize = {name="zeroize", versions=['1.2.0']}
+zip = {name="zip", versions=['0.5.6']}
